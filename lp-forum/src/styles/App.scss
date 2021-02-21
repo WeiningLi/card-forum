@@ -1,0 +1,73 @@
+@import "~react-bulma-components/src/index.sass";
+
+$fa-font-path: '~@fortawesome/fontawesome-free/webfonts'; 
+@import '~@fortawesome/fontawesome-free/scss/fontawesome';
+@import '~@fortawesome/fontawesome-free/scss/solid';
+@import '~@fortawesome/fontawesome-free/scss/brands';
+@import '~@fortawesome/fontawesome-free/scss/regular';
+
+// Font Issues
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans+Extra+Condensed:wght@400;600&family=Lato:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap");
+
+$family-header: "Fira Sans Extra Condensed", sans-serif;
+$family-primary: "Lato", sans-serif;
+$family-secondary: "Lato", sans-serif;
+$family-sans-serif: "Lato", sans-serif;
+
+// Size Issues
+$navbar-padding-vertical: 0.25rem;
+$navbar-height: 5rem;
+
+// Color Issues
+$red: #e46767;
+$dark-red: #e43838;
+
+.bg-transparent {
+    background-color: transparent !important;
+}
+
+.site-card-wrapper {
+    min-height: 100vh;
+    height: 100%;
+    padding: 50px 50px 50px 10px;
+}
+
+.title {
+    font-size: 2vw;
+    font-family: "Fira Sans Extra Condensed", sans-serif;
+    margin-bottom: 2vw;
+}
+
+.model-card {
+    border-radius: 5px;
+    border: 1px solid $dark-red;
+    background-image: linear-gradient(141deg, #e8304f 0%, $red 71%, #ec8c79 100%) !important;
+    outline: none;
+    padding: 50px;
+    width: 80%;
+    height: 80%;
+    font-size: 1vw;
+    font-family: "Fira Sans Extra Condensed", sans-serif;
+    color: white;
+    transition: 0.5s;
+}
+
+.model-card:hover {
+    border: 1px solid transparent;
+    color: white;
+    font-size: 1.125vw;
+    width: 90%;
+    height: 90%;
+}
+
+.center-col {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    height: 16vw;
+}
+
+.menu-padding {
+    padding-left: 2vw;
+    padding-top: 2vw;
+}

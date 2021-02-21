@@ -12,7 +12,7 @@ export default class Comments extends Component {
       let script = document.createElement("script");
       script.setAttribute("src", "https://utteranc.es/client.js");
       script.setAttribute("repo", "WeiningLi/card-forum");
-      script.setAttribute("issue-term", "another model");
+      script.setAttribute("issue-term", "a model1");
       script.setAttribute( "theme", "github-light");
       script.setAttribute("crossorigin","anonymous");
       script.setAttribute("async", true);
