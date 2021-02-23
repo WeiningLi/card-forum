@@ -52,6 +52,11 @@ $dark-red: #e43838;
     transition: 0.5s;
 }
 
+.model-txt {
+    float: left;
+    display: block;
+}
+
 .model-card:hover {
     border: 1px solid transparent;
     color: white;

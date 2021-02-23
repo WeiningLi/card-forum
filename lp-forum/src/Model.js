@@ -6,13 +6,15 @@ export default class Comments extends Component {
   constructor(props){ 
     super(props);
     this.commentBox = React.createRef();
+    this.id = window.location.href.toString().split("=").pop();
+    console.log(this.id)
   }
 
   componentDidMount () {
       let script = document.createElement("script");
       script.setAttribute("src", "https://utteranc.es/client.js");
       script.setAttribute("repo", "WeiningLi/card-forum");
-      script.setAttribute("issue-term", "a model1");
+      script.setAttribute("issue-number", this.id);
       script.setAttribute( "theme", "github-light");
       script.setAttribute("crossorigin","anonymous");
       script.setAttribute("async", true);

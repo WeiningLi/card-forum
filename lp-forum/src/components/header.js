@@ -5,7 +5,7 @@ import { GithubOutlined } from "@ant-design/icons";
 
 function Header() {
   return (
-      <div class="hero-head">
+      <div className="hero-head">
         <nav className="navbar lp-navbar" role="navigation">
           <div className="container">
             <div className="navbar-brand">
