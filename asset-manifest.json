@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/card-forum/static/css/main.6e5af076.chunk.css",
+    "main.js": "/card-forum/static/js/main.5fd470ea.chunk.js",
+    "main.js.map": "/card-forum/static/js/main.5fd470ea.chunk.js.map",
+    "runtime-main.js": "/card-forum/static/js/runtime-main.a6602f11.js",
+    "runtime-main.js.map": "/card-forum/static/js/runtime-main.a6602f11.js.map",
+    "static/css/2.dd4a14ca.chunk.css": "/card-forum/static/css/2.dd4a14ca.chunk.css",
+    "static/js/2.54bd7920.chunk.js": "/card-forum/static/js/2.54bd7920.chunk.js",
+    "static/js/2.54bd7920.chunk.js.map": "/card-forum/static/js/2.54bd7920.chunk.js.map",
+    "index.html": "/card-forum/index.html",
+    "static/css/2.dd4a14ca.chunk.css.map": "/card-forum/static/css/2.dd4a14ca.chunk.css.map",
+    "static/css/main.6e5af076.chunk.css.map": "/card-forum/static/css/main.6e5af076.chunk.css.map",
+    "static/js/2.54bd7920.chunk.js.LICENSE.txt": "/card-forum/static/js/2.54bd7920.chunk.js.LICENSE.txt",
+    "static/media/Header.scss": "/card-forum/static/media/fa-solid-900.f4f93856.woff",
+    "static/media/lp-badge-white.87e3ef5c.svg": "/card-forum/static/media/lp-badge-white.87e3ef5c.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a6602f11.js",
+    "static/css/2.dd4a14ca.chunk.css",
+    "static/js/2.54bd7920.chunk.js",
+    "static/css/main.6e5af076.chunk.css",
+    "static/js/main.5fd470ea.chunk.js"
+  ]
+}
